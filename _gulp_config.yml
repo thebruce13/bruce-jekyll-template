@@ -1,0 +1,16 @@
+# Gulp config file
+COMPATIBILITY: 
+  - "last 2 versions"
+  - "id >= 11"
+  - "ios >= 7"
+
+# Gulp will reference these paths when it copies files
+PATHS:
+  # Paths to Sass libraries, which can then be loaded with @import
+  sass:
+    -"src/scss"
+  
+  # Paths to JavaScript libraries, which are combined into one file
+  javascript:
+    - "assets/_js/!(app).js"
+    - "assets/_js/app.js"
