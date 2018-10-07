@@ -11,6 +11,7 @@ var svgstore = require('gulp-svgstore');
 var svgmin = require('gulp-svgmin');
 var fontBlast = require('font-blast');
 var cp = require('child_process');
+var sourcemaps = require('gulp-sourcemaps');
 
 // Load all Gulp plugins into one variable
 var $ = plugins();
