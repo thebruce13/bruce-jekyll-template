@@ -8,7 +8,7 @@ COMPATIBILITY:
 PATHS:
   # Paths to Sass libraries, which can then be loaded with @import
   sass:
-    -"src/scss"
+    -"assets/_scss"
   
   # Paths to JavaScript libraries, which are combined into one file
   javascript:
